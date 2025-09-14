@@ -3,12 +3,15 @@
 
 using namespace std;
 
-int main() {
-
-  cout << "Hello world!" << endl;
+void answer() {
   string answer;
   cin >> answer;
-  
+  cout << answer;
+}
+
+int main() {
+
+  answer();  
   
   return 0;
 }
